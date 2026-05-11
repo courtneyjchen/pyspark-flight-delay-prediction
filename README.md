@@ -9,3 +9,9 @@ Commercial flight delays are inevitable due to factors such as extreme weather, 
 - Significant delays (240+ minutes)
 
 To support this analysis, we developed a distributed machine learning pipeline in PySpark and Databricks capable of processing large-scale aviation and weather datasets. Leveraging over 31 million commercial flight records alongside NOAA weather data, the system integrated custom distributed joins, scalable preprocessing workflows, and time-aware feature engineering to enable end-to-end model training across multi-year data. We evaluated multiple machine learning architectures, including Logistic Regression, Random Forests, Gradient Boosted Trees, and Multilayer Perceptrons (MLPs), while incorporating temporal and airport connectivity features to improve predictive performance. Extensive experimentation, hyperparameter tuning, and leakage-aware validation strategies were used to optimize model robustness and minority class prediction performance within a high-volume distributed computing environment.
+
+## Results
+- While the MLP achieved the highest overall accuracy (0.81 test), XGBoost produced the strongest balanced performance across delay severity classes, achieving the highest Macro F1 scores (0.33 test) on cross-validation and held-out test data.
+- Weather-related variables were some of the strongest predictors of delay severity, with hourly precipitation, bulb temperature, and visibility substantially influencing model predictions.
+- Origin airport consistently ranked among the most predictive features, suggesting that systemic airport-level operational patterns strongly impact departure delays.
+- Random Forest and Logistic Regression achieved comparable performance, indicating that limitations were driven by constraints other than model architecture (e.g., data and signal).
