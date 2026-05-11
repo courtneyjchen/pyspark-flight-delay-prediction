@@ -18,7 +18,7 @@ While the MLP achieved the highest overall accuracy on the held-out test set (0.
 ## Project Materials
 *The exported Databricks HTML report is too large for GitHub preview and is best viewed locally in a browser after download.*
 
-📄 [Download Final Report (HTML)](output/final_report.html)
+📄 [Download Final Report (HTML)](pyspark-flight-delay-prediction/output/final_report.html)
 
 📊 [Presentation Deck](presentation/final_presentation.pdf)
 
