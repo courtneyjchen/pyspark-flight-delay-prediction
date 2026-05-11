@@ -16,9 +16,9 @@ To support this analysis, we developed a distributed machine learning pipeline i
 While the MLP achieved the highest overall accuracy on the held-out test set (0.81), XGBoost produced the strongest balanced performance across delay severity classes, achieving the highest Macro F1 score (0.33) across both cross-validation and test evaluation. Weather-related variables emerged as some of the most influential predictors of delay severity, with hourly precipitation, bulb temperature, and visibility substantially impacting model predictions. Origin airport also ranked among the strongest predictive features, suggesting that persistent airport-level operational dynamics play a major role in departure delays. The divergence between accuracy and Macro F1 highlights the impact of class imbalance, as models achieving strong overall accuracy did not necessarily perform well across less frequent but operationally important severe delay categories.
 
 ## Project Materials
-*The exported Databricks HTML report is too large for GitHub preview and is best viewed locally in a browser after download.*
+*The Databricks HTML is too large for GitHub preview and is best viewed locally in a browser after download.*
 
-📄 [Download Final Report (HTML)](pyspark-flight-delay-prediction/output/final_report.html)
+📄 [Download Final Report (HTML)](output/final_report.html)
 
 📊 [Presentation Deck](presentation/final_presentation.pdf)
 
