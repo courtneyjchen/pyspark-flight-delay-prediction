@@ -18,6 +18,8 @@ While the MLP achieved the highest overall accuracy on the held-out test set (0.
 ## Project Materials
 The exported Databricks HTML report is too large for GitHub preview and is best viewed locally in a browser after download.  
 
-> 📄 [Download Final Report (HTML)](report/final_report.html)
-> 
-> 📊 [Presentation Deck](presentation/final_presentation.pdf)
+📄 [Download Final Report (HTML)](report/final_report.html)
+
+📊 [Presentation Deck](presentation/final_presentation.pdf)
+
+**Contributers:** Brian Corgiat, Theo Hui, Ryan Schaefer
