@@ -20,6 +20,6 @@ While the MLP achieved the highest overall accuracy on the held-out test set (0.
 
 📄 [Download Final Report (HTML)](output/final_report.html)
 
-📊 [Presentation Deck](presentation/final_presentation.pdf)
+📊 [View Final Presentation](output/final_presentation.pdf)
 
 **Contributers:** Brian Corgiat, Theo Hui, Ryan Schaefer
